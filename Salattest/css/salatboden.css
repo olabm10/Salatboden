@@ -47,7 +47,7 @@ display : inline;
 }
 #navcontainer ul li a {
 float : left;
-padding : 0.2em 3.1em;
+padding : 0.2em 3.1899999em;
 text-decoration : none;
 border-right : 1px solid, #fff;
 color : #fff;
