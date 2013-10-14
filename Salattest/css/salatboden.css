@@ -19,7 +19,7 @@ color : #333;
 height : 150px;
 padding : 0;
 margin : 0;
-background : #417c2c url(img/topimg1.jpg) no-repeat;
+background : #417c2c url(../img/topimg1.jpg) no-repeat;
 color : #333;
 }
 #topimg h1 {
@@ -39,7 +39,7 @@ margin : 0 0 20px 0;
 font-size : 125%;
 border-top : 1px solid #fff;
 border-bottom : 1px solid #fff;
-background:  url(img/navbarBack.jpg) no-repeat;
+background:  url(../img/navbarBack.jpg) no-repeat;
 
 }
 #navcontainer ul li {
@@ -95,18 +95,18 @@ color : #666;
 background : inherit;
 }
 .sidemenu ul li a {
-background : transparent url(img/list-off.gif) no-repeat left center;
+background : transparent url(../img/list-off.gif) no-repeat left center;
 padding-left : 15px;
 font : normal 11px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
 text-decoration : none;
 color : #000;
 }
 .sidemenu ul li a:hover {
-background : transparent url(img/list-on.gif) no-repeat left center;
+background : transparent url(../img/list-on.gif) no-repeat left center;
 color : #666;
 }
 .sidemenu ul li a#current {
-background : transparent url(img/list-active.gif) no-repeat left center;
+background : transparent url(../img/list-active.gif) no-repeat left center;
 color : #666;
 }
 			/*FOOTER*/
@@ -169,17 +169,17 @@ border : 0 dashed #8a795d;
 font-size : 90%;
 } 
 .post .date { 
-background : url(img/clock.gif) no-repeat left center;
+background : url(../img/clock.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 
 .post .comments { 
-background : url(img/comment.gif) no-repeat left center;
+background : url(../img/comment.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 
 .post .readmore { 
-background : url(img/document.gif) no-repeat left center;
+background : url(../img/document.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 
