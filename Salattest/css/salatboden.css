@@ -30,6 +30,19 @@ letter-spacing: 3px;
 color : #fff;
 background : #336633;
 }
+
+#topimg a{
+float : right;
+text-decoration : none;
+margin : 10px  15px;
+font-size : 100%;
+letter-spacing: 1px;
+color : white;
+background : #336633;
+	
+	
+}
+
 			/*TOP NAVIGERING*/
 #navcontainer ul {
 float : left;
