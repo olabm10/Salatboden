@@ -10,6 +10,12 @@
 	
 	<!-- JavaScript-->
 	<script src type="text/javascript"></script>
+    <script type="text/javascript" src="js/reginfo.js"></script>
+    <script type="text/javascript" src="js/tinybox.js"></script>
+    
+
+
+    
 	
 </head>
 
@@ -63,45 +69,56 @@
 <!-- unikt innhold på siden -->
 <div id="content">
 
+<h1> Registreringsskjema </h1><br>
+<a href="" onclick="myFunction()"> Hjelp!</a>
+
 <form method="post" action="brukere.php" name="brukere">
-	<table id="registrer"> 
+	<table id="registrer" > 
 		<tbody>
 			<tr>
 				<td>Fornavn:</td>
-				<td><input size="30" name="Fornavn"></td>
+				<td><input size="30" name="Fornavn" class="input"></td>
 			</tr>
 			<tr>
 				<td>Etternavn:</td>
-				<td><input size="30" name="Etternavn"></td>
+				<td><input size="30" name="Etternavn" class="input"></td>
 			</tr>
 			<tr>
 				<td>Mobilnummer:</td>
-				<td><input size="30" name="Mobilnummer"></td>
+				<td><input size="10" name="Mobilnummer" class="input"></td>
 			</tr>
 			<tr>
 				<td>Epost:</td>
-				<td><input size="30" name="Epost"></td>
+				<td><input size="30" name="Epost" class="input"></td>
 			</tr>
 			<tr>
 				<td>Adresse:</td>
-				<td><input size="30" name="Adresse"></td>
+				<td><input size="30" name="Adresse" class="input"></td>
 			</tr>		
 			<tr>
 				<td>Postnummer:</td>
-				<td><input size="30" name="Postnummer"></td>
-			</tr>	
-			<tr>
-				<td>Sted:</td>
-				<td><input size="30" name="Sted"></td>
+				<td><input size="2" name="Postnummer" class="input">
+			
+				Sted:
+				<input size="15" name="Sted" class="input"></td>
 			</tr>	
 			<tr>
 				<td>Passord:</td>
-				<td><input size="30" name="Passord"></td>
+				<td><input size="30" name="Passord" class="input"></td>
 			</tr>
 		</tbody>
 	</table>
-	<input value="Lagre" name="lagre" type="submit">
-	
+    
+	<input value="Lagre" name="lagre" type="submit" class="button">
+    <input value="Tilbake" name="tilbake" type="submit" class="button">
+
+        <!-- TinyBox info PopUp-->
+    <div id="klikk1" class="button">Hjelp!</div>
+    <script type="text/javascript">
+		T$('klikk1').onclick = function(){TINY.box.show("hjelp.html",1,300,250,1)}
+	</script>
+    	
+
 
 </div>
  

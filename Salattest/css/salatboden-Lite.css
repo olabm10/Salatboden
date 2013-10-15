@@ -31,12 +31,12 @@ color : #fff;
 background : #336633;
 }
 
-#topimg a{
+#topright a{
 float : right;
 text-decoration : none;
-margin : 10px  15px;
 font-size : 100%;
 letter-spacing: 1px;
+text-decoration: none;
 color : white;
 background : #336633;
 	
