@@ -122,6 +122,7 @@ color : #666;
 background : transparent url(../img/list-active.gif) no-repeat left center;
 color : #666;
 }
+
 			/*FOOTER*/
 #footer {
 clear : both;
@@ -161,9 +162,17 @@ margin : 10px 0 0 5px;
 padding-left : 10px;
 font-size : 120%;
 text-transform : uppercase;
-letter-spacing : 5px;
+letter-spacing : 3px;
 color : #fff;
 background : #417c2c;
+}
+h3 {
+margin: 10px 0px 5px; auto
+color: black;
+font-size: 120%;
+letter-spacing: 3px;
+text-transform: uppercase;
+		
 }
 			/*CLASSES*/
 .img {
