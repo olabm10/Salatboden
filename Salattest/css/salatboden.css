@@ -40,8 +40,11 @@ letter-spacing: 1px;
 color : white;
 background : #336633;
 	
-	
 }
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
 
 			/*TOP NAVIGERING*/
 #navcontainer ul {
