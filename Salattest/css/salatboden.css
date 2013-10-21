@@ -70,15 +70,11 @@ background : #91ae00;
 color : #000;
 }
 
-			/*registrerings felt*/
-#registrer {
 
-	
-}
 
 			/*MAIN CONTENT*/
 #content {
-margin : 0 0 5px 170px;
+margin : 0px 0px 0px 0px;
 padding : 5px;
 border-left : 1px solid #999;
 background : inherit;
@@ -150,7 +146,34 @@ border-bottom : 1px dashed #eee;
 background: inherit;
 color : #333;
 }
-			/*TYPOGRAPHY*/
+
+			/*Design for bestillings sited*/
+			
+#menybestill {
+}
+
+		/*bilde og tekst*/
+#menybestill .mat {
+	margin: 1px 5px 20px 5px;
+	width: 100%;
+	height: 150px;	
+	}
+			
+			/*bilde*/
+#menybestill .menyimg {
+	float: right;
+	margin: 0px 10px 0px 0px;
+
+}
+			/*tekst*/
+#menybestill .innhold {
+	height: 160px;
+	clear: 
+	}
+
+
+
+			/*formatering for paragrafer og overskrifter*/
 p {
 line-height: 1.7em;
 margin : 15px;
@@ -181,6 +204,9 @@ letter-spacing: 3px;
 text-transform: uppercase;
 		
 }
+
+
+
 
 		/*Tinybox*/
 		
@@ -266,7 +292,7 @@ input:focus {
 
 	
 	
-
+	/* hvor brukes disse?*/
 
 .img {
 float : left;
@@ -304,5 +330,85 @@ font-style : italic;
 color : #b29b35;
 }
 
+			/*prislapper*/
+			
+			
+/*plasering*/
+#menybestill .tags	{
+	margin:0;
+	padding:0;
+	position:static;
+	right:24px;
+	bottom:-12px;
+	list-style:none;
+	}
+		
+/*høude og linje høyde for li og a*/	
+#menybestill .tags li, .tags a	{
+	float:left;
+	height:24px;
+	line-height:24px;
+	position:static;
+	font-size:11px;
+	}
+	
+/*styling av elementet*/
+#menybestill .tags a	{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#336633;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+	} 
+	
+	
+/*trekanten*/
+#menybestill .tags a:before{
+	content:"";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #0089e0 transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 12px 0;		
+	}
+
+/*rundingen på "prislappen"*/
+#menybestill .tags a:after	{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+	}
+	
+/*fargeendring når pila går over elementet*/
+#menybestill .tags a:hover	{
+	background:#555;
+	}	
+
+#menybestill .tags a:hover:before	{
+	border-color:transparent #555 transparent transparent;
+	}
+
+			/*Meny klasser til bestilling online*/
 
 
