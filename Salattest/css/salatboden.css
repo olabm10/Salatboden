@@ -185,7 +185,7 @@ text-transform: uppercase;
 		/*Tinybox*/
 		
 #tinybox {
-position:absolute; display:none; padding:10px; background:#fff url(img/preload.gif) no-repeat 50% 50%; border:10px solid 	#e3e3e3; z-index:2000}
+position:absolute; display:none; padding:10px; background:#fff url(../img/preload.gif) no-repeat 50% 50%; border:10px solid 	#e3e3e3; z-index:2000}
 
 #tinymask {
 	position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000; z-index:1500
@@ -239,7 +239,7 @@ input:focus {
         display:inline-block;
         color:#777777;
         font-family:arial;
-        font-size:15px;
+        font-size:12px;
         font-weight:bold;
         padding:6px 24px;
         text-decoration:none;
