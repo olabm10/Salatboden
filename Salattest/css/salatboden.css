@@ -82,7 +82,7 @@ padding : 5px;
 border-left : 1px solid #999;
 background : inherit;
 color : #333;
-height: 500px;
+height: 600px;
 overflow: auto;
 }
 #content a:link, #content a:visited {
@@ -340,25 +340,23 @@ color : #b29b35;
 #menybestill .tags	{
 	margin:0;
 	padding:0;
-	position:static;
-	right:24px;
-	bottom:-12px;
+	position: static;
 	list-style:none;
 	}
 		
-/*høude og linje høyde for li og a*/	
+/*høyde og linje høyde for li og a*/	
 #menybestill .tags li, .tags a	{
 	float:left;
 	height:24px;
 	line-height:24px;
-	position:static;
+	position:relative;
 	font-size:11px;
 	}
 	
 /*styling av elementet*/
 #menybestill .tags a	{
 	margin-left:20px;
-	padding:0 10px 0 12px;
+	padding:0 10px 0 0px;
 	background:#336633;
 	color:#fff;
 	text-decoration:none;
@@ -375,22 +373,22 @@ color : #b29b35;
 #menybestill .tags a:before{
 	content:"";
 	float:left;
-	position:absolute;
+	position:relative;
 	top:0;
 	left:-12px;
 	width:0;
 	height:0;
-	border-color:transparent #0089e0 transparent transparent;
+	border-color:transparent #336633 transparent transparent;
 	border-style:solid;
-	border-width:12px 12px 12px 0;		
+	border-width:12px 12px 12px 0px;		
 	}
 
 /*rundingen på "prislappen"*/
 #menybestill .tags a:after	{
 	content:"";
-	position:absolute;
+	position: relative;
 	top:10px;
-	left:0;
+	left:0px;
 	float:left;
 	width:4px;
 	height:4px;
