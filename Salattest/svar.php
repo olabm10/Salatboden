@@ -12,9 +12,9 @@
           <TD VALIGN="TOP" WIDTH="584">  
              <H3> Takk for at du tok deg tid til &aring; fylle ut skjemaet! </H3>  
              <P> Dersom du har ytterligere kommentarer kan du sende dem til 
-                <A HREF="mailto:hallgeir.nilsen@hia.no">hallgeir nilsen</A>. </P>  
-             <P ALIGN="LEFT"> <FONT SIZE="-2">Publisert: april 2006 av 
-                <A HREF="mailto:hallgeir.nilsen@hia.no">hallgeir nilsen</A></FONT></P> </TD>  
+                <A HREF="mailto:ola.malnes@gmail.com">Johnny!</A>. </P>  
+             <P ALIGN="LEFT"> <FONT SIZE="-2">Publisert: nå av 
+                <A HREF="mailto:ola.malnes@gmail.com">Johnny!</A></FONT></P> </TD>  
         </TR>  
      </TABLE> </BODY> 
 </HTML> 
