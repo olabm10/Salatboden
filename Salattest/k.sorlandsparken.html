@@ -7,9 +7,20 @@
 	<!-- CSS -->
 	<link href="css/salatboden.css" rel="stylesheet" type="text/css">
 
+	<!--Skrift forstørre/forminske / JavaScript -->
+	<script type="text/javascript" src="js/skrift.js"></script>
+
+	
 </head>
 
 <body>
+<!--Knapper for å forstørre/forminske skrift-->
+<div style="font-size: 1.5em">
+<a href="javascript:increaseFontSize('mydiv');">A</a>
+<a href="javascript:decreaseFontSize('mydiv');">a</a>
+</div>
+
+
 <div id="container">
 	<div id="topimg">
 		<h1>Salatboden</h1>
@@ -39,6 +50,11 @@
 	</ul>
 	</div>
 </div>
+
+
+
+<!--Skrift etter denne setninen blir forstørret/forminsket-->
+<div id="mydiv" style="font-size: 1em">
 
 <!-- unikt innhold på siden -->
 <div id="content">
@@ -72,6 +88,8 @@ Barstølveien 31-35, 4659 Kristiansand  <br>
 
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.no/maps?f=q&amp;source=s_q&amp;hl=no&amp;geocode=&amp;q=S%C3%B8rlandssenteret,+Barst%C3%B8lveien,+Kristiansand&amp;aq=0&amp;oq=s%C3%B8rlands&amp;sll=58.146228,7.999313&amp;sspn=0.00872,0.022724&amp;g=Dronningens+gate,+Kristiansand&amp;ie=UTF8&amp;hq=S%C3%B8rlandssenteret,+Barst%C3%B8lveien,+Kristiansand&amp;t=h&amp;ll=58.179917,8.129542&amp;spn=0.011766,0.032015&amp;output=embed"></iframe><br /><small><a href="https://maps.google.no/maps?f=q&amp;source=embed&amp;hl=no&amp;geocode=&amp;q=S%C3%B8rlandssenteret,+Barst%C3%B8lveien,+Kristiansand&amp;aq=0&amp;oq=s%C3%B8rlands&amp;sll=58.146228,7.999313&amp;sspn=0.00872,0.022724&amp;g=Dronningens+gate,+Kristiansand&amp;ie=UTF8&amp;hq=S%C3%B8rlandssenteret,+Barst%C3%B8lveien,+Kristiansand&amp;t=h&amp;ll=58.179917,8.129542&amp;spn=0.011766,0.032015" style="color:#0000FF;text-align:left">Vis større kart</a></small>
 
+</div>
+<!--Alt mellom divene blir forstørret med "forstørr" knappen-->
 </div>
  
  <!--Footer-->
