@@ -16,12 +16,16 @@ $hente = $_POST['hente'];
 
 // Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
 if ($lagre)  // sjekker om knappen som heter lagre er aktivert 
-    {    $today = date("Y-m-d H:i:s");  
-        $result = mysql_query("INSERT INTO salatbrukere VALUES ('$fornavn','$etternavn','$mobilnummer','$epost','$adresse','$postnummer','$sted','$passord')"); 
-        //$result = mysql_query("INSERT INTO salatbrukere (fornavn,mobil) VALUES ('knut','12345')"); 
+    { 
+		$query="INSERT INTO 
+			salatbrukere 
+		VALUES ('$fornavn ','$etternavn','$mobilnummer','$epost','$adresse','$postnummer','$sted','$passord')";
+        //$result = mysql_query($query); 
+		echo $query;
+        $result = mysql_query("INSERT INTO salatbrukere (fornavn,mobil) VALUES ('knut','12345')"); 
         if ($result) 
-            {    include "svar.php"; 
-                mysql_close($result); 
+            {    include 'svar.php'; 
+               // mysql_close($result); 
             } 
         else    { include "feil.php"; } 
     }  // slutt lagre 
@@ -43,7 +47,6 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
         { 
-            $today=mysql_result($result,$i,"dagensdato"); 
             $fornavn=mysql_result($result,$i,"fornavn"); 
             $etternavn=mysql_result($result,$i,"etternavn"); 
             $mobilnummer=mysql_result($result,$i,"mobilnummer"); 
@@ -52,7 +55,7 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
 			$postnummer=mysql_result($result,$i,"postnummer");
 			$sted=mysql_result($result,$i,"sted");
 			$passord=mysql_result($result,$i,"passord");
-            echo "<tr><td>$today</td>" . "<td> $fornavn </td>" . "<td> $etternavn </td>" . "<td> $mobilnummer </td>" . "<td>$epost </td>" . 
+            echo "<td> $fornavn </td>" . "<td> $etternavn </td>" . "<td> $mobilnummer </td>" . "<td>$epost </td>" . 
 			"<td>$adresse </td>" . "<td>$postnummer </td>" . "<td>$sted </td>" . "<td>$passord </td>" . "</tr><br>"; 
             $i++; 
         } // slutt while 

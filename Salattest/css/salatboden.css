@@ -68,12 +68,15 @@ text-decoration : none;
 border-right : 1px solid, #fff;
 color : #fff;
 }
-#navcontainer ul li a:hover, #navcontainer ul li a#current {
+#navcontainer ul li a:hover, a:active, #navcontainer ul li a#current {
 background : #91ae00;
 color : #000;
 }
-
-
+#navcontainer ul li a:active 
+{
+background : #91ae00;
+color : #000;
+}
 
 			/*MAIN CONTENT*/
 #content {
@@ -177,6 +180,9 @@ color : #333;
 
 
 			/*formatering for paragrafer og overskrifter*/
+			
+a:active {color:#0000FF;}
+
 p {
 line-height: 1.7em;
 margin : 15px;
