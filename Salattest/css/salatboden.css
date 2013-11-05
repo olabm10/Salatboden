@@ -42,9 +42,7 @@ background : #336633;
 	
 }
 
-#cycler{position:relative;}
-#cycler img{position:absolute;z-index:1}
-#cycler img.active{z-index:3}
+
 
 			/*TOP NAVIGERING*/
 #navcontainer ul {
@@ -53,8 +51,8 @@ width : 100%;
 padding-left : 0;
 margin : 0 0 20px 0;
 font-size : 125%;
-border-top : 1px solid #fff;
-border-bottom : 1px solid #fff;
+border-top : 2px solid #336633;
+border-bottom : 2px solid #336633;
 background:  url(../img/navbarBack.jpg) no-repeat;
 
 }
@@ -63,10 +61,11 @@ display : inline;
 }
 #navcontainer ul li a {
 float : left;
-padding : 0.2em 3.15em;
+padding : 0.2em 3em;
 text-decoration : none;
 border-right : 1px solid, #fff;
 color : #fff;
+font-weight: bold;
 }
 #navcontainer ul li a:hover, a:active, #navcontainer ul li a#current {
 background : #91ae00;
@@ -81,7 +80,8 @@ color : #000;
 			/*MAIN CONTENT*/
 #content {
 margin : 0px 0px 0px 0px;
-padding : 5px;
+padding-left : 40px;
+padding-right: 40px;
 border-left : 1px solid #999;
 background : inherit;
 color : #333;
@@ -138,8 +138,9 @@ clear : both;
 padding : 5px;
 margin : 0;
 font-size : 90%;
-border-top : 1px solid #fff;
-background : #417c2c;
+border-top : 2px solid #336633;
+border-bottom: 2px solid #336633;
+background : url(../img/gronnbolge.jpg) no-repeat;
 color : #333;
 }
 #footer a:link, #footer a:visited {
