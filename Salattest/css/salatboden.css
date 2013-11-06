@@ -1,3 +1,5 @@
+/*hele nettsiden*/
+
 body {
 margin : 0;
 padding : 0;
@@ -5,25 +7,28 @@ font : 73% "Trebuchet MS", verdana, arial, sans-serif;
 background : url(../img/background2.jpg) no-repeat;
 color : #333;
 }
+
+ /*alt innhold (innenhor firkanten)*/
 #container {
-width : 740px;
+width : 1000px;
 margin-left : auto;
 margin-right : auto;
 padding : 0;
 border : 5px solid #336633;
-/*background : #e9eee4;*/
 color : white;
 background-color:rgba(0,0,0,.5);
 border-radius: 20px;
 }
-			/*TOP BANNER*/
+			
+			/*LOGO-Banner*/
 #topimg {
 height : 150px;
 padding : 0;
 margin : 0;
-background : #417c2c url(../img/topimg2.jpg) no-repeat;
+background :  url(../img/topimg2.jpg) no-repeat;
 color : #333;
 }
+/*overskrift - skal slettes */
 #topimg h1 {
 float : left;
 margin : 10px 0 0 15px;
@@ -33,6 +38,7 @@ color : #fff;
 background : #336633;
 }
 
+/* linker øverst*/
 #topimg a {
 float : right;
 text-decoration : none;
