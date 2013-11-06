@@ -2,7 +2,7 @@ body {
 margin : 0;
 padding : 0;
 font : 73% "Trebuchet MS", verdana, arial, sans-serif;
-background : #2e2e2e;
+background : url(../img/background2.jpg) no-repeat;
 color : #333;
 }
 #container {
@@ -11,15 +11,17 @@ margin-left : auto;
 margin-right : auto;
 padding : 0;
 border : 5px solid #336633;
-background : #e9eee4;
-color : #333;
+/*background : #e9eee4;*/
+color : white;
+background-color:rgba(0,0,0,.5);
+border-radius: 20px;
 }
 			/*TOP BANNER*/
 #topimg {
 height : 150px;
 padding : 0;
 margin : 0;
-background : #417c2c url(../img/topimg1.jpg) no-repeat;
+background : #417c2c url(../img/topimg2.jpg) no-repeat;
 color : #333;
 }
 #topimg h1 {
@@ -82,9 +84,8 @@ color : #000;
 margin : 0px 0px 0px 0px;
 padding-left : 40px;
 padding-right: 40px;
-border-left : 1px solid #999;
 background : inherit;
-color : #333;
+color : white;
 height: 600px;
 overflow: auto;
 }
@@ -101,27 +102,32 @@ color : #91AE00;
 #sidebar {
 float : left;
 width : 160px;
-margin : 0 10px 0 0;
+height: 570px;
+margin : 0 10px 0 10px;
 padding : 5px;
-background : #e9eee4;
 color : #333;
+background-color:rgba(0,0,0,.3);
+border-radius: 20px;
+
 }
 			/*SIDE MENU*/
 .sidemenu ul {
 list-style-type : none;
 text-align : left;
+
 }
 .sidemenu ul li {
 display : block;
 color : #666;
 background : inherit;
+
 }
 .sidemenu ul li a {
-background : transparent url(../img/list-off.gif) no-repeat left center;
 padding-left : 15px;
 font : normal 11px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
 text-decoration : none;
-color : #000;
+color : white;
+
 }
 .sidemenu ul li a:hover {
 background : transparent url(../img/list-on.gif) no-repeat left center;
@@ -188,6 +194,7 @@ p {
 line-height: 1.7em;
 margin : 15px;
 }
+
 h1 {
 margin-top : 10px;
 padding : 0;
@@ -197,6 +204,7 @@ letter-spacing: 3px;
 color : #336633;
 background : inherit;
 }
+
 h2 {
 margin : 10px 0 0 5px;
 padding-left : 10px;
@@ -205,7 +213,9 @@ text-transform : uppercase;
 letter-spacing : 3px;
 color : #fff;
 background : #417c2c;
+border-radius: 10px;
 }
+
 h3 {
 margin: 10px 0px 5px; auto
 color: black;
