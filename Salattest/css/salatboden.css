@@ -25,7 +25,7 @@ border-radius: 20px;
 height : 150px;
 padding : 0;
 margin : 0;
-background :  url(../img/topimg2.jpg) no-repeat;
+background :  url(../img/) no-repeat;
 color : #333;
 }
 /*overskrift - skal slettes */
@@ -61,7 +61,7 @@ margin : 0 0 20px 0;
 font-size : 125%;
 border-top : 2px solid #336633;
 border-bottom : 2px solid #336633;
-background:  url(../img/navbarBack.jpg) no-repeat;
+background:  ;
 
 }
 #navcontainer ul li {
@@ -69,7 +69,7 @@ display : inline;
 }
 #navcontainer ul li a {
 float : left;
-padding : 0.2em 3em;
+padding : 0.5em 4.5em;
 text-decoration : none;
 border-right : 1px solid, #fff;
 color : #fff;
@@ -153,6 +153,7 @@ font-size : 90%;
 border-top : 2px solid #336633;
 border-bottom: 2px solid #336633;
 background : url(../img/gronnbolge.jpg) no-repeat;
+opacity:;
 color : #333;
 }
 #footer a:link, #footer a:visited {
