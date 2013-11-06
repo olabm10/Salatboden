@@ -57,7 +57,8 @@ margin : 0 0 20px 0;
 font-size : 125%;
 border-top : 2px solid #336633;
 border-bottom : 2px solid #336633;
-background:  ;
+background-color:rgba(0,0,0,.3);
+
 
 }
 #navcontainer ul li {
@@ -148,8 +149,7 @@ margin : 0;
 font-size : 90%;
 border-top : 2px solid #336633;
 border-bottom: 2px solid #336633;
-background : url(../img/gronnbolge.jpg) no-repeat;
-opacity:;
+background-color:rgba(0,0,0,.3);
 color : #333;
 }
 #footer a:link, #footer a:visited {
