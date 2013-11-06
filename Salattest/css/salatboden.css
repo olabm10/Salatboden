@@ -167,6 +167,10 @@ background: inherit;
 color : #333;
 }
 
+address {
+padding-left:10px;	
+}
+
 			/*Design for bestillings sited*/
 			
 #menybestill {
