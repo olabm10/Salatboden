@@ -28,21 +28,13 @@ margin : 0;
 background :  url(../img/) no-repeat;
 color : #333;
 }
-/*overskrift - skal slettes */
-#topimg h1 {
-float : left;
-margin : 10px 0 0 15px;
-font-size : 200%;
-letter-spacing: 3px;
-color : #fff;
-background : #336633;
-}
+
 
 /* linker øverst*/
 #topimg a {
-float : right;
+	float: right;
 text-decoration : none;
-margin : 10px  15px;
+margin: 10px;
 font-size : 100%;
 letter-spacing: 1px;
 color : white;
@@ -269,7 +261,7 @@ input:focus {
     -webkit-box-shadow: 0px 0px 14px #329000; 
 }
 	
-/*innput knapp*/
+/*knapper*/
 
 .button  {
         
@@ -323,7 +315,7 @@ input:focus {
 
 	
 	
-	/* hvor brukes disse?*/
+	/* bruker vi dette?*/
 
 .img {
 float : left;

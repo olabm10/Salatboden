@@ -76,49 +76,26 @@
 <div id="content">
 
 <h1> Registreringsskjema </h1><br>
-<a href="" onclick="myFunction()"> Hjelp!</a>
-
-<form method="post" action="brukere.php" name="brukere">
-	<table id="registrer" > 
-		<tbody>
-			<tr>
-				<td>Fornavn:</td>
-				<td><input size="30" name="fornavn" class="input"></td>
-			</tr>
-			<tr>
-				<td>Etternavn:</td>
-				<td><input size="30" name="etternavn" class="input"></td>
-			</tr>
-			<tr>
-				<td>Mobilnummer:</td>
-				<td><input size="10" name="mobilnummer" class="input"></td>
-			</tr>
-			<tr>
-				<td>Epost:</td>
-				<td><input size="30" name="epost" class="input"></td>
-			</tr>
-			<tr>
-				<td>Adresse:</td>
-				<td><input size="30" name="adresse" class="input"></td>
-			</tr>		
-			<tr>
-				<td>Postnummer:</td>
-				<td><input size="2" name="postnummer" class="input">
-			
-				Sted:
-				<input size="15" name="sted" class="input"></td>
-			</tr>	
-			<tr>
-				<td>Passord:</td>
-				<td><input size="30" name="passord" class="input"></td>
-			</tr>
+<form method="post" action="logginn.php" name="logginn">
+	<table id="logginn">
+    	<tbody>
+        	<tr>
+            	<td>E-post:</td>
+                <td><input size="30" name"E-post" class="input"></td>
+            </tr>
+            </tr>
+            	<td>Passord:</td>
+                <td><input size="30" name"Passord" class="input"></td>
+            </tr>
 		</tbody>
 	</table>
     
-	<input value="Lagre" name="lagre" type="submit" class="button">
-    <a class="button" style="color:grey; background:none; text-decoration:none; " href="index.html" > Avbryt</a>
-	
-	<input name="hente" value="hente info(kun for test)" type="submit">
+    <!-- login knapp -->
+    <input value="Logg Inn" name="Logg inn" type="submit" class="button">
+    
+    <!-- Avbryt knapp -->
+    <input value="avbryt" name="avbryt" type="submit" class="button" href="index.html"  >
+
 
         <!-- TinyBox info PopUp-->
     <div id="klikk1" class="button">Hjelp!</div>
