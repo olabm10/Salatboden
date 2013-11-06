@@ -73,12 +73,12 @@ color : #fff;
 font-weight: bold;
 }
 #navcontainer ul li a:hover, a:active, #navcontainer ul li a#current {
-background : #91ae00;
+background : #8cc63f;
 color : #000;
 }
 #navcontainer ul li a:active 
 {
-background : #91ae00;
+background : #8cc63f;
 color : #000;
 }
 
@@ -99,7 +99,7 @@ color : #417C2C;
 }
 #content a:hover {
 background : inherit;
-color : #91AE00;
+color : #8cc63f;
 }
 			/*SIDEBAR*/
 #sidebar {
@@ -154,13 +154,11 @@ color : #333;
 }
 #footer a:link, #footer a:visited {
 text-decoration : none;
-background : inherit;
 color : #fff;
 }
 #footer a:hover {
-border-bottom : 1px dashed #eee;
-background: inherit;
-color : #333;
+background : #8cc63f;
+color : #000;
 }
 
 address {
