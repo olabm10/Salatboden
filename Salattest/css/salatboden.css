@@ -4,12 +4,13 @@ body {
 margin : 0;
 padding : 0;
 font : 73% "Trebuchet MS", verdana, arial, sans-serif;
-background : url(../img/background2.jpg) no-repeat;
+background : url(../img/background1.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 color : #333;
+
 }
 
  /*alt innhold (innenhor firkanten)*/
@@ -18,10 +19,11 @@ width : 1000px;
 margin-left : auto;
 margin-right : auto;
 padding : 0;
-border : 5px solid #336633;
-color : white;
-background-color:rgba(0,0,0,.5);
+border : 5px solid #4CA7E3;
+color : black;
+background-color:rgba(255,255,255,.8);
 border-radius: 20px;
+
 }
 			
 			/*LOGO-Banner*/
@@ -30,19 +32,22 @@ height : 150px;
 padding : 0;
 margin : 0;
 background :  url(../img/salatboden_logo.png) no-repeat;
-color : #333;
 }
 
 
 /* linker øverst*/
 #topimg a {
-	float: right;
+float: right;
 text-decoration : none;
 margin: 10px;
 font-size : 100%;
 letter-spacing: 1px;
 color : white;
-background : none;
+background-color:rgba(7,81,129,.8);
+border-radius:5px;
+font-size:15px;
+padding: 5px;
+
 	
 }
 
@@ -55,30 +60,35 @@ width : 100%;
 padding-left : 0;
 margin : 0 0 20px 0;
 font-size : 125%;
-border-top : 2px solid #336633;
-border-bottom : 2px solid #336633;
-background-color:rgba(0,0,0,.3);
-
+border-top : 2px solid #4CA7E3;
+border-bottom : 2px solid #4CA7E3;
+background-color:rgba(7,81,129,.8);
 
 }
+
 #navcontainer ul li {
 display : inline;
 }
+
 #navcontainer ul li a {
 float : left;
 padding : 0.5em 4.5em;
 text-decoration : none;
 border-right : 1px solid, #fff;
-color : #fff;
+color : white;
 font-weight: bold;
 }
+
 #navcontainer ul li a:hover, a:active, #navcontainer ul li a#current {
-background : #8cc63f;
+background : #74B7E3;
+-webkit-transition:.5s;
 color : #000;
+border-radius:5px;
 }
+
 #navcontainer ul li a:active 
 {
-background : #8cc63f;
+background : #74B7E3;
 color : #000;
 }
 
@@ -88,7 +98,6 @@ margin : 0px 0px 0px 0px;
 padding-left : 40px;
 padding-right: 40px;
 background : inherit;
-color : white;
 height: 600px;
 overflow: auto;
 }
@@ -101,6 +110,50 @@ color : #417C2C;
 background : inherit;
 color : #8cc63f;
 }
+/*--------------------------------------------------------------*/
+/*GROW - bruk id "grow pic"
+
+.grow img {
+  height: 142px;
+  width: 204px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+
+ * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+
+ 
+.pic {
+  border: 10px solid #fff;  
+  float: left;
+  height: 142px;
+  width: 204px;
+  margin: 20px;
+  overflow: hidden;
+  float:right;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+		  
+}
+-------------------------------------------------------------*/		  
+		  
+		  
 			/*SIDEBAR*/
 #sidebar {
 float : left;
@@ -109,7 +162,7 @@ height: 570px;
 margin : 0 10px 0 10px;
 padding : 5px;
 color : #333;
-background-color:rgba(0,0,0,.3);
+background-color:rgba(7,81,129,.5);
 border-radius: 20px;
 
 }
@@ -126,15 +179,18 @@ background : inherit;
 
 }
 .sidemenu ul li a {
-padding-left : 15px;
-font : normal 11px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+padding-left: 10px;
+font : normal 20px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
 text-decoration : none;
 color : white;
 
 }
 .sidemenu ul li a:hover {
-background : transparent url(../img/list-on.gif) no-repeat left center;
-color : #666;
+background : transparent url(../img/pil.gif) no-repeat left center;
+color : black;
+-webkit-transition: .3s;
+
+
 }
 .sidemenu ul li a#current {
 background : transparent url(../img/list-active.gif) no-repeat left center;
@@ -147,18 +203,27 @@ clear : both;
 padding : 5px;
 margin : 0;
 font-size : 90%;
-border-top : 2px solid #336633;
-border-bottom: 2px solid #336633;
-background-color:rgba(0,0,0,.3);
+border-top : 2px solid #4CA7E3;
+border-bottom: 2px solid #4CA7E3;
+background-color:rgba(7,81,129,.8);
 color : #333;
+text-align:center;
+
 }
+
 #footer a:link, #footer a:visited {
 text-decoration : none;
 color : #fff;
+padding : 0em 1em;
+
+
 }
 #footer a:hover {
-background : #8cc63f;
+background : #74B7E3 url(../img/pil.gif) no-repeat left center ;
+
+
 color : #000;
+-webkit-transition:.3s;
 }
 
 address {
@@ -181,8 +246,12 @@ padding-left:10px;
 #menybestill .menyimg {
 	float: right;
 	margin: 0px 10px 0px 0px;
-
+	
 }
+#menybestill .menyimg:hover {
+	background:white;
+	}
+
 			/*tekst*/
 #menybestill .innhold {
 	height: 160px;
@@ -216,7 +285,7 @@ font-size : 120%;
 text-transform : uppercase;
 letter-spacing : 3px;
 color : #fff;
-background : #417c2c;
+background : #A65F05;
 border-radius: 10px;
 }
 
@@ -245,7 +314,6 @@ position:absolute; display:none; padding:10px; background:#fff url(../img/preloa
 	}
 		
 			
-	/*-----------------------------Klasser---------------------------------*/
 		
 /*innput felt*/	
 .input {
@@ -378,7 +446,7 @@ color : #b29b35;
 #menybestill .tags a	{
 	margin-left:20px;
 	padding:0 10px 0 0px;
-	background:#336633;
+	background:#075181;
 	color:#fff;
 	text-decoration:none;
 	-moz-border-radius-bottomright:4px;
@@ -399,10 +467,11 @@ color : #b29b35;
 	left:-12px;
 	width:0;
 	height:0;
-	border-color:transparent #336633 transparent transparent;
+	border-color:transparent #075181 transparent transparent;
 	border-style:solid;
 	border-width:12px 12px 12px 0px;		
 	}
+	
 
 /*rundingen på "prislappen"*/
 #menybestill .tags a:after	{
@@ -420,17 +489,24 @@ color : #b29b35;
 	-moz-box-shadow:-1px -1px 2px #004977;
 	-webkit-box-shadow:-1px -1px 2px #004977;
 	box-shadow:-1px -1px 2px #004977;
+	
 	}
 	
 /*fargeendring når pila går over elementet*/
 #menybestill .tags a:hover	{
-	background:#555;
+	background:#74B7E3;
+	color:black;
+	-webkit-transition:.3s;
+
 	}	
 
+/*fargeendring trekant*/
 #menybestill .tags a:hover:before	{
-	border-color:transparent #555 transparent transparent;
+	border-color:transparent #74B7E3 transparent transparent;
+	-webkit-transition:10s;
+
+
 	}
 
-			/*Meny klasser til bestilling online*/
 
 
