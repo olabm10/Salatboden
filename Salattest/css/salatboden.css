@@ -5,6 +5,7 @@ margin : 0;
 padding : 0;
 font : 73% "Trebuchet MS", verdana, arial, sans-serif;
 background : url(../img/background1.jpg) no-repeat;
+background-size:100% 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,8 +48,16 @@ background-color:rgba(7,81,129,.8);
 border-radius:5px;
 font-size:15px;
 padding: 5px;
+}
 
-	
+#topimg a:hover {
+	background-color :#4CA7E3; /*make the background a little darker*/
+	/*reduce the drop shadow size to give a pushed button effect*/
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-webkit-transition:.3s;	
+	color: black;
 }
 
 
@@ -449,7 +458,7 @@ background-color :#4CA7E3; /*make the background a little darker*/
 -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
 -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
 box-shadow: 0 0 1px rgba(0,0,0, .75);
-
+color: black;
 -webkit-transition:.3s;
 }	
 
@@ -476,6 +485,9 @@ margin-top: -250px;  /*(half of height)*/
 }
 
 
-
+/*error ved registrering*/
+.error {
+color: #FF0000;
+}
 
 
