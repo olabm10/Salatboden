@@ -423,92 +423,7 @@ font-style : italic;
 color : #b29b35;
 }
 
-			/*prislapper*/
-			
-			
-/*plasering*/
-#menybestill .tags	{
-	margin:0;
-	padding:0;
-	position: static;
-	list-style:none;
-	}
-		
-/*høyde og linje høyde for li og a*/	
-#menybestill .tags li, .tags a	{
-	float:left;
-	height:24px;
-	line-height:24px;
-	position:relative;
-	font-size:11px;
-	}
-	
-/*styling av elementet*/
-#menybestill .tags a	{
-	margin-left:20px;
-	padding:0 10px 0 0px;
-	background:#075181;
-	color:#fff;
-	text-decoration:none;
-	-moz-border-radius-bottomright:4px;
-	-webkit-border-bottom-right-radius:4px;	
-	border-bottom-right-radius:4px;
-	-moz-border-radius-topright:4px;
-	-webkit-border-top-right-radius:4px;	
-	border-top-right-radius:4px;	
-	} 
-	
-	
-/*trekanten*/
-#menybestill .tags a:before{
-	content:"";
-	float:left;
-	position:relative;
-	top:0;
-	left:-12px;
-	width:0;
-	height:0;
-	border-color:transparent #075181 transparent transparent;
-	border-style:solid;
-	border-width:12px 12px 12px 0px;		
-	}
-	
-
-/*rundingen på "prislappen"*/
-#menybestill .tags a:after	{
-	content:"";
-	position: relative;
-	top:10px;
-	left:0px;
-	float:left;
-	width:4px;
-	height:4px;
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border-radius:2px;
-	background:#fff;
-	-moz-box-shadow:-1px -1px 2px #004977;
-	-webkit-box-shadow:-1px -1px 2px #004977;
-	box-shadow:-1px -1px 2px #004977;
-	
-	}
-	
-/*fargeendring når pila går over elementet*/
-#menybestill .tags a:hover	{
-	background:#74B7E3;
-	color:black;
-	-webkit-transition:.3s;
-
-	}	
-
-/*fargeendring trekant*/
-#menybestill .tags a:hover:before	{
-	border-color:transparent #74B7E3 transparent transparent;
-	-webkit-transition:10s;
-
-
-	}
-	
+				
 /***Legg til knapp***/
 input#gobutton{
 cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
@@ -534,7 +449,10 @@ background-color :#4CA7E3; /*make the background a little darker*/
 -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
 -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
 box-shadow: 0 0 1px rgba(0,0,0, .75);
+
+-webkit-transition:.3s;
 }	
+
 
 
 
