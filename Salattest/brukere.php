@@ -21,9 +21,7 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
 			salatbrukere 
 		VALUES ('$fornavn ','$etternavn','$mobilnummer','$epost','$adresse','$postnummer','$sted','$passord')";
         //$result = mysql_query($query); 
-		echo $query;
-		// $result = mysql_query($query);
-        $result = mysql_query("INSERT INTO salatbrukere (fornavn,mobilnummer,epost) VALUES ('$fornavn','$mobilnummer','$epost')"); 
+        $result = mysql_query("INSERT INTO salatbrukere (fornavn,etternavn,mobilnummer,epost,adresse,postnummer,sted,passord) VALUES ('$fornavn ','$etternavn','$mobilnummer','$epost','$adresse','$postnummer','$sted','$passord')"); 
         if ($result) 
             {    include 'svar.php'; 
                // mysql_close($result); 

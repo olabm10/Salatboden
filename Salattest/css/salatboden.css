@@ -455,4 +455,27 @@ box-shadow: 0 0 1px rgba(0,0,0, .75);
 
 
 
+/*svar boks ved registrering*/
+#svarboks {
+width: auto;
+height: auto;
+padding: 30px 30px;
+font-size: 15px;
+
+padding : 0;
+border : 5px solid #4CA7E3;
+color : black;
+background-color:rgba(255,255,255,.8);
+border-radius: 20px;
+
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -250px; /*(half of width)*/
+margin-top: -250px;  /*(half of height)*/
+}
+
+
+
+
 
