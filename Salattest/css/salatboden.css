@@ -4,7 +4,7 @@ body {
 margin : 0;
 padding : 0;
 font : 73% "Trebuchet MS", verdana, arial, sans-serif;
-background : url(../img/background5.jpg) no-repeat;
+background : url(../img/background4.jpg) no-repeat;
 background-size:100% 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -397,7 +397,7 @@ input#gobutton{
 cursor:pointer; 
 padding:5px 10px; /*add some padding to the inside of the button*/
 background:rgba(7,81,129,.8); /* farge på knappen*/
-border:1px solid #74B7E3; /*required or the default border for the browser will appear*/
+border:0px solid #74B7E3; /*required or the default border for the browser will appear*/
 /*give the button curved corners, alter the size as required*/
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
@@ -476,4 +476,7 @@ overflow: hidden;
  width:45%;
  float:right;	
 }
+
+
+
 
