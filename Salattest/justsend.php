@@ -1,54 +1,52 @@
-﻿<!--Forteller nettleser at dokumentet skal leses som html-->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<!--head, effekter til siden, men vil ikke være synlig på siden. Tekstspråket er satt til å kunne vise a,ø og å. Tittel på siden, link til eksternt .css og .js fil-->
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Pizza Heaven</title>
-	<link rel="stylesheet" type="text/css" href="utseende.css" />
-	<script src="" type="text/javascript"></script>
+	<meta charset="utf-8">
+	<title> Salatboden </title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/salatboden.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
 <body>
-<!--header div rundt begge menyene, logo og slagord-->
-<div id="header1">
-<!-- her begynner toppmenyknappene som er oppe til høye -->
-	<div id="toppmeny">
-		<ul>
-			<li class="toppmenyknapper">
-				<a href="ledig.html">Ledige stillinger</a>
-			</li>
-			<li class="toppmenyknapper">
-				<a href="kontakt.html">Kontakt/tilbakemelding</a>
-			</li>
-		</ul>
+
+
+
+<div id="container">
+	<div id="topimg">
+        
+        <!-- Navigeringsknapper top right-->
+        <div id="topright">
+		 <a href="registrer.html">Registrer</a>
+         <a href="logginn.html">Logg inn</a>
+		</div>
 	</div>
-	<div id="logo">
-		<a href ="index.html"><img src="bilder/pizzalogo.png">
-	</div>
+
+	
+
+<div id="navcontainer">
+	<ul id="navlist" >
+        <li><a href="index.html">Hjem</a>
+        <li><a href="meny.html" >Meny</a>
+        <li><a href="bestill.html" >Bestill Online</a>
+        <li><a href="restaurant.html" > Restaurant</a>
+        <li><a href="omoss.html" > Om Oss</a>
+	</ul>
 </div>
-<div id="hovedmeny">
-	<div id="hovedmenyknapper">
-	<div class="menylinks">
-	<ul>
-		<li><a href="index.html"><img src="knapper/hjemu.png" width="221" height="50" align="left" onmouseover="src='knapper/hjemi.png'" onmouseout="src='knapper/hjemu.png'" /></a></li>
-<li>
-			<a href="meny.html"><img src="knapper/menyu.png" width="221" height="50" align="left" onmouseover="src='knapper/manyi.png'" onmouseout="src='knapper/menyu.png'">	</a>	</li>
-		<li>
-			<a href="restauranter.html"><img src="knapper/restauranteru.png" width="221" height="50" align="left" onmouseover="src='knapper/restauranteri.png'" onmouseout="src='knapper/restauranteru.png'">	</a></li>
-		<li>
-			<a href="omoss.html"><img src="knapper/omossu.png" width="221" height="50" align="right" onmouseover="src='knapper/omossi.png'" onmouseout="src='knapper/omossu.png'"> </a>  </li>	
-</ul>
-	</div>
-  </div>
-</div>
-<!--Når man klikker på "send" på kontakt.html blir man videresendt til justsend.php. den har akkurat de samme funksjonen som resten av siden. men inni divene er det PHP. -->
-<div id="innhold">
-<div id="kontakt">
+
+
+
+<div>
+
+<!-- unikt innhold på siden -->
+<div id="content">
+
 <?php
 
 $to = 'even.hoyer@yahoo.no'; // her velger man hvilken mail tilbakemeldingen skal bli sendt til
-$subject = 'Tilbakemelding fra pizzaheaven'; // er er "emnet" som blir vist  i innboksen
+$subject = 'Tilbakemelding fra salatboden'; // er er "emnet" som blir vist  i innboksen
 
 $msg = "avsenders navn: ".$_POST['name']."\n".  // her er hovedinnholdet i teksten, man samler sammen det som blir skrevet i formen name, email og feedback. 
 " Avsenders email: ".$_POST['email']."\n". 
@@ -69,13 +67,30 @@ $msg = "avsenders navn: ".$_POST['name']."\n".  // her er hovedinnholdet i tekst
   echo '<br> Din henvendelse vil bli behandlet ASAP </br>';
  }
 ?>
-</div>
-</div>
-<div id="bunnbox">
-	<!--Bunn box-->
+
+
 </div>
  
- 
-</div>
+ <!--Footer-->
+<div id="footer"> 
+	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
+	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
+	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
+	<a href="https://www.facebook.com/martesofie">Marte</a> | 
+	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> | 
+	<span id="kontakt"><a href="Kontakt.html">Kontakt Oss</a> | 
+	&copy; 2013 Anyone | 
+	
+</span></div>
+
+
+
+
+
+
+	<!-- forfatter og dato-->
+	<address>Made xx.11.2013 <br> By Memmo 	</address>
+    <script type="text/javascript" src="js/navigation.js"></script>
+
 </body>
 </html>
