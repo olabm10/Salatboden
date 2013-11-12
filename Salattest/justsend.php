@@ -58,13 +58,14 @@ $msg = "avsenders navn: ".$_POST['name']."\n".  // her er hovedinnholdet i tekst
  } else {
   mail ($to, $subject, $msg, 'From:' . $_POST['email']);   // hvis iftesten finner ut at det er fylt ut noe i feltene sender den mailen, samt skriver en tilbakemelding på at mailen er sendt
   
-  
-  echo ' <br> Takk for din tilbakemelding </br>';
+
+  echo '<br> Takk for din tilbakemelding </br>';
   echo '<br> Ditt navn: ' . $_POST ['name'] .'</br>';     
   echo '<br> Din Email: ' . $_POST['email'] . '</br>';
   echo '<br> Din Tilbakemelding: ' . $_POST ['feedback'] . '</br>';
   echo '<br></br>';
-  echo '<br> Din henvendelse vil bli behandlet ASAP </br>';
+  echo '<br>  </br>';
+
  }
 ?>
 
