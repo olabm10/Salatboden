@@ -1,58 +1,59 @@
 /*hele nettsiden*/
 
 body {
-margin : 0;
-padding : 0;
-font : 73% "Trebuchet MS", verdana, arial, sans-serif;
-background : url(../img/background4.jpg) no-repeat;
-background-size:100% 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-color : #333;
+	margin : 0;
+	padding : 0;
+	font : 73% "Trebuchet MS", verdana, arial, sans-serif;
+	background : url(../img/background4.jpg) no-repeat;
+	background-size:100% 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	color : #333;
 
 }
 
  /*alt innhold (innenhor firkanten)*/
 #container {
-width : 1000px;
-margin-left : auto;
-margin-right : auto;
-padding : 0;
-border : 5px solid #4CA7E3;
-color : black;
-background-color:rgba(255,255,255,.6);
-border-radius: 20px;
+	width : 1000px;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 0;
+	border : 5px solid #4CA7E3;
+	color : black;
+	background-color:rgba(255,255,255,.6);
+	border-radius: 20px;
 
 }
 			
 			/*LOGO-Banner*/
 #topimg {
-height : 150px;
-padding : 0;
-margin : 0;
-background :  url(../img/salatboden_logo2.png) no-repeat;
+	height : 150px;
+	padding : 0;
+	margin : 0;
+	background :  url(../img/salatboden_logo2.png) no-repeat;
 }
 
 
-/* linker øverst*/
+			/* linker øverst til høyre*/
 #topimg a {
-float: right;
-text-decoration : none;
-margin: 10px;
-font-size : 100%;
-letter-spacing: 1px;
-color : white;
-background-color:rgba(7,81,129,.8);
-border-radius:5px;
-font-size:15px;
-padding: 5px;
+	float: right;
+	text-decoration : none;
+	margin: 10px;
+	font-size : 100%;
+	letter-spacing: 1px;
+	color : white;
+	background-color:rgba(7,81,129,.8);
+	border-radius:5px;
+	font-size:15px;
+	padding: 5px;
 }
 
+			/*hover over login og registrer knapp*/
+			
 #topimg a:hover {
-	background-color :#74B7E3; /*make the background a little darker*/
-	/*reduce the drop shadow size to give a pushed button effect*/
+	background-color :#74B7E3; 
 	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
 	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
 	box-shadow: 0 0 1px rgba(0,0,0, .75);
@@ -61,17 +62,17 @@ padding: 5px;
 }
 
 
-			/*TOP NAVIGERING*/
+			/*NAVIGERING ØVERST*/
 			
 .mainheader nav ul {
-float : left;
-width : 100%;
-padding-left : 0;
-margin : 0 0 20px 0;
-font-size : 125%;
-border-top : 2px solid #4CA7E3;
-border-bottom : 2px solid #4CA7E3;
-background-color:rgba(7,81,129,.8);
+	float : left;
+	width : 100%;
+	padding-left : 0;
+	margin : 0 0 20px 0;
+	font-size : 125%;
+	border-top : 2px solid #4CA7E3;
+	border-bottom : 2px solid #4CA7E3;
+	background-color:rgba(7,81,129,.8);
 
 
 
@@ -98,7 +99,10 @@ background-color:rgba(7,81,129,.8);
 	-webkit-transition:.5s;
 	border-radius:5px;
 	
-}			
+}		
+
+
+			/*tidligere versjon av navigeringsmenyen*/	
 /*
 #navcontainer ul {
 float : left;
@@ -146,190 +150,191 @@ a.active {
 background : #74B7E3;
 color : #000;
 }*/
-			/*MAIN CONTENT*/
+			
+			
+			/*CONTENT - innhold på nettsiden*/
 #content {
-margin : 0px 0px 0px 0px;
-padding-left : 40px;
-padding-right: 40px;
-background : inherit;
-height: 600px;
-overflow: auto;
+	margin : 0px 0px 0px 0px;
+	padding-left : 40px;
+	padding-right: 40px;
+	background : inherit;
+	height: 600px;
+	overflow: auto;
 }
+
 #content a:link, #content a:visited {
-text-decoration : underline;
-background : inherit;
-color : #417C2C;
+	text-decoration : underline;
+	background : inherit;
+	color : #417C2C;
 }
+
 #content a:hover {
-background : inherit;
-color : #8cc63f;
+	background : inherit;
+	color : #8cc63f;
 }
   
 		  
 		  
-			/*SIDEBAR*/
+			/*SIDEMENYEN*/
 #sidebar {
-float : left;
-width : 160px;
-height: 570px;
-margin : 0 10px 0 10px;
-padding : 5px;
-color : #333;
-background-color:rgba(7,81,129,.5);
-border-radius: 20px;
-
+	float : left;
+	width : 160px;
+	height: 570px;
+	margin : 0 10px 0 10px;
+	padding : 5px;
+	color : #333;
+	background-color:rgba(7,81,129,.5);
+	border-radius: 20px;
 }
-			/*SIDE MENU*/
+
 .sidemenu ul {
-padding-left: 10px;
-list-style-type : none;
-text-align : left;
-
+	padding-left: 10px;
+	list-style-type : none;
+	text-align : left;
 }
+
 .sidemenu ul li {
-display : block;
-color : #666;
-background : inherit;
-
+	display : block;
+	color : #666;
+	background : inherit;
 }
+
 .sidemenu ul li a {
-padding-left: 10px;
-font : normal 20px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
-text-decoration : none;
-color : white;
-
+	padding-left: 10px;
+	font : normal 20px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+	text-decoration : none;
+	color : white;
 }
+
 .sidemenu ul li a:hover {
-background : transparent url(../img/pil.gif) no-repeat left center;
-color : black;
--webkit-transition: .3s;
-
-
+	background : transparent url(../img/pil.gif) no-repeat left center;
+	color : black;
+	-webkit-transition: .3s;
 }
+
 .sidemenu ul li a#current {
-background : transparent url(../img/list-active.gif) no-repeat left center;
-color : #666;
+	background : transparent url(../img/list-active.gif) no-repeat left center;
+	color : #666;
 }
 
-			/*FOOTER*/
+			/*FOOTER - MENY NEDERST PÅ SIDEN*/
 #footer {
-clear : both;
-padding : 5px;
-margin : 0;
-font-size : 90%;
-border-top : 2px solid #4CA7E3;
-border-bottom: 2px solid #4CA7E3;
-background-color:rgba(7,81,129,.8);
-color : #333;
-text-align:center;
-
+	clear : both;
+	padding : 5px;
+	margin : 0;
+	font-size : 90%;
+	border-top : 2px solid #4CA7E3;
+	border-bottom: 2px solid #4CA7E3;
+	background-color:rgba(7,81,129,.8);
+	color : #333;
+	text-align:center;
 }
 
 #footer a:link, #footer a:visited {
-text-decoration : none;
-color : #fff;
-padding : 0em 1em;
-
-
+	text-decoration : none;
+	color : #fff;
+	padding : 0em 1em;
 }
+
 #footer a:hover {
-background : #74B7E3 url(../img/pil.gif) no-repeat left center ;
-
-
-color : #000;
--webkit-transition:.3s;
+	background : #74B7E3 url(../img/pil.gif) no-repeat left center ;
+	color : #000;
+	-webkit-transition:.3s;
 }
 
 address {
-padding-left:10px;	
+	padding-left:10px;	
 }
 
-			/*Design for bestillings sited*/
-			
-#menybestill {
-}
 
-		/*bilde og tekst*/
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+			/*bilde og tekst - bestillings side*/
+		
 #menybestill .mat {
 	margin: 1px 5px 20px 5px;
 	width: 100%;
 	height: 150px;	
 	}
 			
-			/*bilde*/
+			/*bilde - bestillings side*/
 #menybestill .menyimg {
 	float: right;
 	margin: 0px 10px 0px 0px;
 	
-}
+}		
+			
 #menybestill .menyimg:hover {
 	background:white;
-	}
+}
 
-			/*tekst*/
 #menybestill .innhold {
 	height: 160px;
 	clear: 
-	}
+}
 
 
 
 			/*formatering for paragrafer og overskrifter*/
 			
-a:active {color:#0000FF;}
+a:active {
+	color:#0000FF;
+}
 
 p {
-line-height: 1.7em;
-margin : 15px;
+	line-height: 1.7em;
+	margin : 15px;
 }
 
 h1 {
-margin-top : 10px;
-font-size : 30px;
-letter-spacing: 3px;
-color : black;
-
+	margin-top : 10px;
+	font-size : 30px;
+	letter-spacing: 3px;
+	color : black;
 }
 
 h2 {
-margin : 10px 0 0 5px;
-padding-left : 10px;
-align: center;
-font-size : 120%;
-text-transform : uppercase;
-letter-spacing : 3px;
-color : #fff;
-background : #A65F05;
-border-radius: 10px;
+	margin : 10px 0 0 5px;
+	padding-left : 10px;
+	align: center;
+	font-size : 120%;
+	text-transform : uppercase;
+	letter-spacing : 3px;
+	color : #fff;
+	background : #A65F05;
+	border-radius: 10px;
 }
 
 h3 {
-margin: 10px 0px 5px; auto
-color: black;
-font-size: 120%;
-letter-spacing: 4px;
-text-transform: uppercase;
-		
+	margin: 10px 0px 5px; auto
+	color: black;
+	font-size: 120%;
+	letter-spacing: 4px;
+	text-transform: uppercase;	
 }
 
 
 
 
-		/*Tinybox*/
+		/*Tinybox - css og javascript hentet fra nettet*/
 		
 #tinybox {
-position:absolute; display:none; padding:10px; background:#fff url(../img/preload.gif) no-repeat 50% 50%; border:10px solid 	#e3e3e3; z-index:2000}
+	position:absolute; display:none; padding:10px; background:#fff url(../img/preload.gif) no-repeat 50% 50%; border:10px solid 	#e3e3e3; z-index:2000
+}
 
 #tinymask {
 	position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000; z-index:1500
-	}
+}
+
 #tinycontent {
 	background:#fff
-	}
+}
 		
 			
 		
-/*innput felt*/	
+			/*innput felt*/	
 .input {
 	    /* avrunding av hjørner */
     border-radius: 4px;
@@ -344,184 +349,128 @@ input:focus {
     -webkit-box-shadow: 0px 0px 14px #329000; 
 }
 	
-/*knapper*/
+			
+			/*grå knapper*/
 
-.button  {
+.button  { 
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
         
-        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
         
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
-        background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-        background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-        background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-        background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-        background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
-        
-        background-color:#ededed;
-        
-        -moz-border-radius:6px;
-        -webkit-border-radius:6px;
-        border-radius:6px;
-        
-        border:1px solid #dcdcdc;
-        
-        display:inline-block;
-        color:#777777;
-        font-family:arial;
-        font-size:12px;
-        font-weight:bold;
-        padding:6px 24px;
-        text-decoration:none;
-        
-        text-shadow:0px 1px 0px #ffffff;
-        
-    }
-    .button:hover {
-        
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
-        background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-        background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-        background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-        background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-        background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
-        
-        background-color:#dfdfdf;
-    }
-    .myButton:active {
-        position:relative;
-        top:1px;
-    }
-
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;    
+}
 	
+			/*grå knapp hover*/
+.button:hover {   
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+        
+    background-color:#dfdfdf;
+    }
 	
-	/* bruker vi dette?*/
-
-.img {
-float : left;
-padding : 10px;
-border : none;
-}
-.img a {
-border : none;
-}
-.post { 
-background : #eee;
-padding : 3px;
-margin : 20px 10px 0 5px;
-border : 0 dashed #8a795d;
-font-size : 90%;
-} 
-.post .date { 
-background : url(../img/clock.gif) no-repeat left center;
-padding-left : 15px;
-margin : 0 15px 0 5px;
-} 
-.post .comments { 
-background : url(../img/comment.gif) no-repeat left center;
-padding-left : 15px;
-margin : 0 15px 0 5px;
-} 
-.post .readmore { 
-background : url(../img/document.gif) no-repeat left center;
-padding-left : 15px;
-margin : 0 15px 0 5px;
-} 
-blockquote {
-font-weight : bold;
-font-style : italic;
-color : #b29b35;
-}
 
 				
-/***Legg til knapp***/
+			/*bestillings knapp*/
+			
 input#gobutton{
-cursor:pointer; 
-padding:5px 10px; /*add some padding to the inside of the button*/
-background:rgba(7,81,129,.8); /* farge på knappen*/
-border:0px solid #74B7E3; /*required or the default border for the browser will appear*/
-/*give the button curved corners, alter the size as required*/
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-/*give the button a drop shadow*/
--webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
-box-shadow: 0 0 4px rgba(0,0,0, .75);
-/*style the text*/
-color:#f3f3f3;
-font-size:1em;
+	cursor:pointer; 
+	padding:5px 10px; 
+	background:rgba(7,81,129,.8); 
+	border:0px solid #74B7E3; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	color:#f3f3f3;
+	font-size:1em;
 }
-/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+			/*Hover og aktiv styling*/
 input#gobutton:hover, input#gobutton:focus{
-background-color :#4CA7E3; /*make the background a little darker*/
-/*reduce the drop shadow size to give a pushed button effect*/
--webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
-box-shadow: 0 0 1px rgba(0,0,0, .75);
-color: black;
--webkit-transition:.3s;
+	background-color :#4CA7E3; 
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+	color: black;
+	-webkit-transition:.3s;
 }	
 
 
 
-/*svar boks ved registrering*/
+			/*svar boks ved registrering*/
 #svarboks {
-width: auto;
-height: auto;
-padding: 30px 30px;
-font-size: 15px;
-
-padding : 0;
-border : 5px solid #4CA7E3;
-color : black;
-background-color:rgba(255,255,255,.8);
-border-radius: 20px;
-
-position: absolute;
-left: 50%;
-top: 50%;
-margin-left: -250px; /*(half of width)*/
-margin-top: -250px;  /*(half of height)*/
+	width: auto;
+	height: auto;
+	padding: 30px 30px;
+	font-size: 15px;
+	padding : 0;
+	border : 5px solid #4CA7E3;
+	color : black;
+	background-color:rgba(255,255,255,.8);
+	border-radius: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px; 
+	margin-top: -250px;  
 }
 
 
-/*error ved registrering*/
+			/*error ved registrering*/
 .error {
-color: #FF0000;
+	color: #FF0000;
 }
 
 
-/*bildeslider forside*/
+			/*Nivoslider - bildeslider forside*/
 .slider-wrapper { 
 	margin:50px auto;
 	width:66%
 		
 }
 
-/* 2tekst kolonner til forsiden*/
+			/* 2 tekst kolonner til forsiden*/
 #text {
-widht: 80%;
-overflow: hidden;
+	widht: 80%;
+	overflow: hidden;
 }
 
 #text-left {
- width:45%;
- float:left;
- border-right: 1px solid #075181;
- padding-right: 40px;
- margin:0px 0px 50px 0px;
+	 width:45%;
+	 float:left;
+	 border-right: 1px solid #075181;
+	 padding-right: 40px;
+	 margin:0px 0px 50px 0px;
 
 }
 
 #text-right {
- width:45%;
- float:right;	
+	 width:45%;
+	 float:right;	
 }
-
-
-
-
