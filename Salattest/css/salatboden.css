@@ -89,7 +89,7 @@ body {
 	height: 20px;
 	padding: 0.5em 4.7em;
 	text-decoration: none;
-	border-right : 1px solid, #fff;
+	border-right: 0px solid #fff;
 }
 .mainheader nav a:hover, .mainheader nav a:active,
 .mainheader nav .active a:link, .mainheader nav .active a:visited {
@@ -272,7 +272,6 @@ address {
 
 #menybestill .innhold {
 	height: 160px;
-	clear: 
 }
 
 
@@ -298,7 +297,7 @@ h1 {
 h2 {
 	margin : 10px 0 0 5px;
 	padding-left : 10px;
-	align: center;
+	text-align: center;
 	font-size : 120%;
 	text-transform : uppercase;
 	letter-spacing : 3px;
@@ -308,7 +307,7 @@ h2 {
 }
 
 h3 {
-	margin: 10px 0px 5px; auto
+	margin: 10px 0px 5px; 
 	color: black;
 	font-size: 120%;
 	letter-spacing: 4px;
@@ -457,7 +456,7 @@ input#gobutton:hover, input#gobutton:focus{
 
 			/* 2 tekst kolonner til forsiden*/
 #text {
-	widht: 80%;
+	width: 80%;
 	overflow: hidden;
 }
 
