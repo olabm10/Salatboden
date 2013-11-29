@@ -1,3 +1,5 @@
+<?php include 'database/init.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +14,11 @@
 	<script src type="text/javascript"></script>
     <script type="text/javascript" src="js/reginfo.js"></script>
     <script type="text/javascript" src="js/tinybox.js"></script>
+    <script type="text/javascript" src="js/test2.js"></script>
+    
 
 
-
+	
 </head>
 
 <body>
@@ -24,30 +28,30 @@
 <div id="container">
 
 		<div id="topimg">
-		 <a href="registrer.html">Registrer</a>
-         <a href="logginn.html">Logg inn</a>
+		 <a href="registrer.php">Registrer</a>
+         <a href="logginn.php">Logg inn</a>
 		</div>
 		
 		
  <header class="mainheader">
 		<nav>
 			<ul>
-				<li><a href="hjem.html">Hjem</a></li>
-				<li><a href="meny.html">Meny</a></li>
-				<li><a href="bestill.html">Bestill</a></li>
-				<li><a href="restaurant.html">Restaurant</a></li>
-                <li><a href="omoss.html">Om Oss</a></li>
+				<li><a href="hjem.php">Hjem</a></li>
+				<li><a href="meny.php">Meny</a></li>
+				<li><a href="bestill.php">Bestill</a></li>
+				<li><a href="restaurant.php">Restaurant</a></li>
+                <li><a href="omoss.php">Om Oss</a></li>
 			</ul>
 		</nav>
 	</header>
 <!--
 <div id="navcontainer">
 	<ul id="navlist" >
-	<li><a href="hjem.html">Hjem</a>
-	<li><a href="meny.html" >Meny</a>
-	<li><a href="bestill.html" >Bestill Online</a>
-	<li><a href="restaurant.html" > Restaurant</a>
-	<li><a href="omoss.html" > Om Oss</a>
+	<li><a href="hjem.php">Hjem</a>
+	<li><a href="meny.php" >Meny</a>
+	<li><a href="bestill.php" >Bestill Online</a>
+	<li><a href="restaurant.php" > Restaurant</a>
+	<li><a href="omoss.php" > Om Oss</a>
 	</ul>
 </div>-->
 
@@ -80,15 +84,15 @@
     <input value="Logg Inn" name="Logg inn" type="submit" class="button">
     
     <!-- Avbryt knapp -->
-     <a class="button" style="color:grey; background:none; text-decoration:none; " href="hjem.html" > Avbryt</a>
+     <a class="button" style="color:grey; background:none; text-decoration:none; " href="hjem.php" > Avbryt</a>
      
      <!-- funker ikke??->
-    <input value="Avbryt" name="Avbryt" type="submit" class="button" a href="hjem.html">
+    <input value="Avbryt" name="Avbryt" type="submit" class="button" a href="hjem.php">
 
         <!-- TinyBox info PopUp-->
     <div id="klikk1" class="button">Hjelp!</div>
     <script type="text/javascript">
-		T$('klikk1').onclick = function(){TINY.box.show("hjelp.html",1,300,250,1)}
+		T$('klikk1').onclick = function(){TINY.box.show("hjelp.php",1,300,250,1)}
 	</script>
     	
 
@@ -98,8 +102,12 @@
  
  <!--Footer-->
 <div id="footer"> 
-	<a href="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx"target="_blank">Myndighetenes kostholdsråd</a> | 
-	<span id="kontakt"><a href="kontakt.html">Kontakt Oss</a> | 
+	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
+	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
+	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
+	<a href="https://www.facebook.com/martesofie">Marte</a> | 
+	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> |  
+	<span id="kontakt"><a href="kontakt.php">Kontakt Oss</a> | 
 	&copy; 2013 Anyone | 
 	
 </div>
@@ -109,6 +117,6 @@
 
 
 	<!-- forfatter og dato-->
-	<address>Laget november 2013 <br> av Memmo	</address>
+	<address>Made xx.11.2013 <br> by Memmo	</address>
 </body>
 </html>
