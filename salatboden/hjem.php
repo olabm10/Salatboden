@@ -70,17 +70,15 @@
 <div id="tekst">
     <div id="text-left">
 
- 
- 	Hos Salatboden kan du bestille nettopp den salaten du måtte ønske. Du kan velge å bestille den hjem på døren, eller du kan komme innom et av våre spisesteder. 
- 
-	Vi har restaurant i Kristiansand, Grimstad og på Sørlandssenteret.
+  	Hos Salatboden kan du bestille nettopp den salaten du måtte ønske. Du kan velge å bestille den hjem på døren, 
+	eller du kan komme innom et av våre spisesteder. 
+ 	Vi har restaurant i Kristiansand, Grimstad og på Sørlandssenteret.
  
 	</div>
     <div id="text-right">
 	 
- 	Hos Salatboden kan du bestille nettopp den salaten du måtte ønske. Du kan velge å bestille den hjem på døren, eller du kan komme innom et av våre spisesteder. 
- 
-	Vi har restaurant i Kristiansand, Grimstad og på Sørlandssenteret.
+ 	Er du på farten eller ønsker du et enkelt alternativ til lunsj eller middag kan en deilig salat være et godt valg. 
+	Med godt tilbehør og spennende ingredienser får du et fullverdig og sunt måltid. 
     </div>
 </div>
 
@@ -134,12 +132,8 @@
  
  <!--Footer-->
 <div id="footer"> 
-	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
-	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
-	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
-	<a href="https://www.facebook.com/martesofie">Marte</a> | 
-	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> | 
-	<span id="kontakt"><a href="kontakt.php">Kontakt Oss</a> | 
+	<a href="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx"target="_blank">Myndighetenes kostholdsråd</a> |
+	<span id="kontakt"><a href="kontakt.html">Kontakt Oss</a> | 
 	&copy; 2013 Anyone | 
 	
 </span></div>
@@ -147,10 +141,8 @@
 
 
 
-
-
 	<!-- forfatter og dato-->
-	<address>Made xx.11.2013 <br> By Memmo 	</address>
+	<address>Laget november 2013 <br> av Memmo	</address>
 
 </body>
 </html>
