@@ -1,7 +1,7 @@
 <?php include 'database/init.php'; ?>
 
-<!DOCTYPE php>
-<php>
+<!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
 	<title> Bestilling </title>
@@ -136,4 +136,4 @@
 	<!-- forfatter og dato-->
 	<address>Made xx.11.2013 <br> by Memmo	</address>
 </body>
-</php>
+</html>
