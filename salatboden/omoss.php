@@ -84,7 +84,7 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 				<h3>Mats</h3>
 				<p class="menytxt"> 
 				Mats er en kjekk og hyggelig gutt fra Egersund som er 23 år.<br>
-				
+				<a href="https://www.facebook.com/MadMats90"target="_blank">Mats på facebook</a>
 				</p>
 
 			
@@ -99,7 +99,8 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 			<div class="innhold" >
 				<h3>Even</h3>
 				<p class="menytxt"> 
-				Even er en sliten gutt fra Kristiansand som er 20 år.
+				Even er en sliten gutt fra Kristiansand som er 20 år.<br>
+				<a href="https://www.facebook.com/even.hoyer"target="_blank">Even på facebook</a>
 				</p>
 
 			
@@ -113,7 +114,8 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 			<div class="innhold" >
 				<h3>Maiken</h3>
 				<p class="menytxt"> 
-				Maiken er ei trivelig jente fra Kongsberg som er 23 år. 
+				Maiken er ei trivelig jente fra Kongsberg som er 23 år<br>
+				<a href="https://www.facebook.com/maiken.flaagan"target="_blank">Maiken på facebook</a>				
 				</p>
 
 			
@@ -127,7 +129,8 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 			<div class="innhold" >
 				<h3>Marte</h3>
 				<p class="menytxt"> 
-				Marte er ei gøyal jente fra Kragerø som er 20 år.
+				Marte er ei gøyal jente fra Kragerø som er 20 år.<br>
+				<a href="https://www.facebook.com/martesofie"target="_blank">Marte på facebook</a>
 				</p>
 
 			
@@ -141,7 +144,8 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 			<div class="innhold" >
 				<h3>Ola</h3>
 				<p class="menytxt"> 
-				Ola er en hyggelig gutt fra Grimstad som er 23 år.
+				Ola er en hyggelig gutt fra Grimstad som er 23 år.<br>
+				<a href="https://www.facebook.com/olamalnes"target="_blank">Ola på facebook</a>
 				</p>
 
 			
@@ -165,22 +169,7 @@ Gruppen bak denne fantastiske ideen kaller seg MEMMO, og er alle studenter ved U
 </div>
  
  <!--Footer-->
-<div id="footer"> 
-	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
-	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
-	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
-	<a href="https://www.facebook.com/martesofie">Marte</a> | 
-	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> | 
-	<span id="kontakt"><a href="kontakt.php">Kontakt Oss</a> | 
-	&copy; 2013 Anyone | 
-
-</div>
-
-
-
-
-
-	<!-- forfatter og dato-->
-	<address>Made xx.11.2013 <br> by Memmo 	</address>
+ <?php  include 'footer.php' ;  ?>
+ 
 </body>
 </html>

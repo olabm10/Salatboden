@@ -73,25 +73,7 @@ $msg = "avsenders navn: ".$_POST['name']."\n".  // her er hovedinnholdet i tekst
 </div>
  
  <!--Footer-->
-<div id="footer"> 
-	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
-	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
-	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
-	<a href="https://www.facebook.com/martesofie">Marte</a> | 
-	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> | 
-	<span id="kontakt"><a href="Kontakt.php">Kontakt Oss</a> | 
-	&copy; 2013 Anyone | 
-	
-</span></div>
-
-
-
-
-
-
-	<!-- forfatter og dato-->
-	<address>Made xx.11.2013 <br> By Memmo 	</address>
-    <script type="text/javascript" src="js/navigation.js"></script>
+ <?php  include 'footer.php' ;  ?>
 
 </body>
 </html>

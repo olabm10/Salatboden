@@ -52,21 +52,7 @@ paypal, visa etc. <br>
 </div>
  
  <!--Footer-->
-<div id="footer"> 
-	<a href="https://www.facebook.com/even.hoyer">Even</a> | 
-	<a href="https://www.facebook.com/MadMats90">Mats</a> | 
-	<a href="https://www.facebook.com/olamalnes">Ola</a> | 
-	<a href="https://www.facebook.com/martesofie">Marte</a> | 
-	<a href="https://www.facebook.com/maiken.flaagan">Maiken</a> | 
-	<span id="kontakt"><a href="kontakt.php">Kontakt</a> | 
-	&copy; 2013 Anyone | 
-	
-</div>
-
-
-
-
-	<!-- forfatter og dato-->
-	<address>Made xx.11.2013 <br> by Memmo 	</address>
+ <?php  include 'footer.php' ;  ?>
+ 
 </body>
 </html>
