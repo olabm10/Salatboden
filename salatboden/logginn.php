@@ -14,8 +14,6 @@
 	<script src type="text/javascript"></script>
     <script type="text/javascript" src="js/reginfo.js"></script>
     <script type="text/javascript" src="js/tinybox.js"></script>
-    <script type="text/javascript" src="js/test2.js"></script>
-    
 
 
 	
