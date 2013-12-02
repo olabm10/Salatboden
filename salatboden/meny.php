@@ -61,8 +61,8 @@
 <br>	
 	
 <img src="img/salat.jpg" width="204" height="142" align="left" border="2">
-<p><br><b> 1. Pastasalat med Kylling </b>
-	<br> Strimlet kylling med fullkornspasta, paprika, salatblader, olje og sesamfrø.
+<p><br><b> &nbsp 1. Pastasalat med Kylling </b>
+	<br> &nbsp Strimlet kylling med fullkornspasta, paprika, salatblader, olje og sesamfrø.
 
 </p>	
 <br>
@@ -72,9 +72,9 @@
 <br>
 
 <img src="img/caesar-salad.jpg" width="204" height="142" align="left" border="2">
-<p><br><b> 2. Caesarsalat </b>
-<br> Salatblader med bacon, brødkrutonger, strimlet kylling, tomat og rødløk.
-<br> Serves med tradisjonell caesardressing.
+<p><br><b> &nbsp 2. Caesarsalat </b>
+<br> &nbsp Salatblader med bacon, brødkrutonger, strimlet kylling, tomat og rødløk.
+<br> &nbsp Serves med tradisjonell caesardressing.
 
 </p>
 <br>
@@ -83,8 +83,8 @@
 <br>
 
 <img src="img/shrimp.jpg" width="204" height="142" align="left" border="2">
-<p><br><b> 3. Rekesalat med egg </b>
-<br> Marinerte reker med salatblader, agurk, grønn paprika og egg.
+<p><br><b> &nbsp 3. Rekesalat med egg </b>
+<br> &nbsp Marinerte reker med salatblader, agurk, grønn paprika og egg.
 
 </p>
 <br>
@@ -94,8 +94,9 @@
 <br>
 
 <img src="img/gresk.jpg" width="204" height="142" align="left" border="2">
-<p><br><b> 4. Gresk salat </b>
-<br> Blandet salat, fetaost, sorte hele oliven, rødløk, tomater og brødkrutonger. Serveres med Balsamico.
+<p><br><b> &nbsp 4. Gresk salat </b>
+<br> &nbsp Blandet salat, fetaost, sorte hele oliven, rødløk, tomater og brødkrutonger. 
+<br> &nbsp Serveres med Balsamico.
 
 </p>
 <br>
@@ -104,8 +105,8 @@
 <br>
 
 <img src="img/tunfisksalat.jpg" width="204" height="142" align="left" border="2">
-<p><br><b> 5. Tunfisksalat med egg </b>
-<br> Grønn salat med tunfisk, oliven og egg.
+<p><br><b> &nbsp 5. Tunfisksalat med egg </b>
+<br> &nbsp Grønn salat med tunfisk, oliven og egg.
 
 </p>
 <br>
@@ -122,7 +123,7 @@
 <br>
 
 <img src="img/krutong.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 1. Sprøstekte krutonger </b>
+<p><br><b> &nbsp 1. Sprøstekte krutonger </b>
 
 </p>
 <br>
@@ -133,7 +134,7 @@
 <br>
 
 <img src="img/hvitloksdressing.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 2. Hjemmelagd hvitløksdressing </b>
+<p><br><b> &nbsp 2. Hjemmelagd hvitløksdressing </b>
 
 </p>
 <br>
@@ -144,7 +145,7 @@
 <br>
 
 <img src="img/parmesan.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 3. Parmesanost </b>
+<p><br><b> &nbsp 3. Parmesanost </b>
 
 </p>
 <br>
@@ -155,7 +156,7 @@
 <br>
 
 <img src="img/foccacia.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 4. Hjemmelaget Foccacia </b>
+<p><br><b> &nbsp 4. Hjemmelaget Foccacia </b>
 
 </p>
 <br>
@@ -166,7 +167,7 @@
 <br>
 
 <img src="img/rundstykker.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 5. Grovt rundstykke </b>
+<p><br><b> &nbsp 5. Grovt rundstykke </b>
 
 </p>
 <br>
@@ -183,7 +184,7 @@
 <br>	
 	
 <img src="img/orju.jpg" width="104" height="142" border="2" align="left" >
-<p><br><b> 1. Nypresset Applesinjuice </b>
+<p><br><b> &nbsp 1. Nypresset Applesinjuice </b>
 
 </p>
 <br>
@@ -194,7 +195,7 @@
 <br>
  
 <img src="img/smoothie.jpg" width="104" height="142" border="2" align="left" >
-<p><br><b> 2. Smoothie med Jordbær og Mango </b> 
+<p><br><b> &nbsp 2. Smoothie med Jordbær og Mango </b> 
 
 </p>
 <br>
@@ -205,7 +206,7 @@
 <br>
  
 <img src="img/kiwi.jpg" width="104" height="142" border="2" align="left" >
-<p><br><b> 3. Smoothie med Banan </b> 
+<p><br><b> &nbsp 3. Smoothie med Banan </b> 
 
 </p>
 <br>
@@ -222,7 +223,7 @@
 <br>
 
 <img src="img/pancake.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 1. Husets proteinpannekaker </b>
+<p><br><b> &nbsp 1. Husets proteinpannekaker </b>
 
 </p>
 <br>
@@ -233,7 +234,7 @@
 <br>
 
 <img src="img/pannacotta.png" width="204" height="142" border="2" align="left" >
-<p><br><b> 2. Deilig vitamin panna cotta </b>
+<p><br><b> &nbsp 2. Deilig vitamin panna cotta </b>
 
 </p>
 <br>
@@ -244,7 +245,7 @@
 <br>
 
 <img src="img/fruktcocktail.jpg" width="204" height="142" border="2" align="left" >
-<p><br><b> 3. Eksotisk frukt-cocktail </b>
+<p><br><b> &nbsp 3. Eksotisk frukt-cocktail </b>
 
 </p>
 <br>
