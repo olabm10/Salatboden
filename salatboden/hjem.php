@@ -24,15 +24,10 @@
 
 <body>
 
-
-
 <div id="container">
+	<!--hele headeren, både logo og innloggingsfelt-->
+ 		<?php 	include 'database/sideboks.php'; ?>
 
-	<!--hele header, altså logo og innloggings felt-->
-	<?php 	include 'database/sideboks.php'; ?>
-	
-
-	 
 	<header class="mainheader">
 
 		<nav>
@@ -45,20 +40,10 @@
 			</ul>
 		</nav>
 	</header>	
-<!--
-<div id="navcontainer">
-	<ul id="navlist" >
-        <li class="active"><a href="hjem.php">Hjem</a>
-        <li><a href="meny.php" >Meny</a>
-        <li><a href="bestill.php" >Bestill Online</a>
-        <li><a href="restaurant.php" > Restaurant</a>
-        <li><a href="omoss.php" > Om Oss</a>
-	</ul>
-</div>-->
 
 
-
-<div>
+<div> 
+ 
 
 <!-- unikt innhold på siden -->
 <div id="content">

@@ -15,16 +15,13 @@
 
 <body>
 
-
-
 <div id="container">
-	<!--hele header, altså logo og innloggings felt-->
-	<?php 	include 'database/sideboks.php'; ?>
+	<!--hele headeren, både logo og innloggingsfelt-->
+ 	<?php 	include 'database/sideboks.php'; ?>
 
+	<header class="mainheader">
 
-
-<header class="mainheader">	
-<nav>
+		<nav>
 			<ul>
 				<li><a href="hjem.php">Hjem</a></li>
 				<li><a href="meny.php">Meny</a></li>
@@ -33,17 +30,11 @@
                 <li><a href="omoss.php">Om Oss</a></li>
 			</ul>
 		</nav>
-	</header>
-<!--
-<div id="navcontainer">
-	<ul id="navlist" >
-	<li><a href="hjem.php">Hjem</a>
-	<li><a href="meny.php" >Meny</a>
-	<li><a href="bestill.php" >Bestill Online</a>
-	<li><a href="restaurant.php" > Restaurant</a>
-	<li><a href="omoss.php" > Om Oss</a>
-	</ul>
-</div>-->
+	</header>	
+
+
+<div> 
+ 
 
 <div style="clear:both;"></div>
 <div id="sidebar">

@@ -14,6 +14,8 @@
 	<script src type="text/javascript"></script>
     <script type="text/javascript" src="js/reginfo.js"></script>
     <script type="text/javascript" src="js/tinybox.js"></script>
+    <script type="text/javascript" src="js/test2.js"></script>
+    
 
 
 	
@@ -21,17 +23,12 @@
 
 <body>
 
-
-
 <div id="container">
+	<!--hele headeren, både logo og innloggingsfelt-->
+ 		<?php 	include 'database/sideboks.php'; ?>
 
-		<div id="topimg">
-		 <a href="registrer.php">Registrer</a>
-         <a href="logginn.php">Logg inn</a>
-		</div>
-		
-		
- <header class="mainheader">
+	<header class="mainheader">
+
 		<nav>
 			<ul>
 				<li><a href="hjem.php">Hjem</a></li>
@@ -41,17 +38,10 @@
                 <li><a href="omoss.php">Om Oss</a></li>
 			</ul>
 		</nav>
-	</header>
-<!--
-<div id="navcontainer">
-	<ul id="navlist" >
-	<li><a href="hjem.php">Hjem</a>
-	<li><a href="meny.php" >Meny</a>
-	<li><a href="bestill.php" >Bestill Online</a>
-	<li><a href="restaurant.php" > Restaurant</a>
-	<li><a href="omoss.php" > Om Oss</a>
-	</ul>
-</div>-->
+	</header>	
+
+
+<div>
 
 <div style="clear:both;"></div>
 
