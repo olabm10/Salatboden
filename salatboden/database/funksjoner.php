@@ -1,5 +1,10 @@
 <?php
 
+function epost($to, $subject, $body) {
+	mail($to, $subject, $body, 'From: info@salatboden.no ');
+}
+
+
 function array_sanitize(&$item)	{
 	$item = mysql_real_escape_string($item);
 }

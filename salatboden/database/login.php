@@ -3,13 +3,7 @@
 include 'init.php';
 
 
-//printer ut test om funksjonern fungerer og at den finner brukeren
-/*
-if (ekte_bruker('ola.malnes@gmail.com') === true) {
-	echo 'brukeren eksisterer';
-}
-else echo 'Du har gjort noe feil, finner ikke bruker';
-*/
+
 
 
 if(empty($_POST) === false) {
@@ -26,7 +20,7 @@ if(empty($_POST) === false) {
 			$errors[] = 'Brukernavnet er ikke tidligere registrert';
 		}
 		
-		//sjekker om brukeren er aktiv (er logget inn)
+		//sjekker om brukeren er aktiv (verifisert kontoen via email)
 		else if (aktiv_bruker($epost) === false) {
 			$errors[] = 'Du har ikke aktivert kontoen tin';
 		}

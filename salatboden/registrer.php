@@ -104,7 +104,7 @@ if (empty($_POST) === false) {
 
 <?php
 if (isset($_GET['suksess']) && empty ($_GET['suksess'])) {
-	echo 'Gratulerer, du er nå registrert :) ';
+	echo 'Gratulerer, du er nå registrert. \n Vi har nå sendt deg en E-post, venligst verifiser bla bla bla... ';
 } 
 //fjern formen når bruker er registrert
 else {
@@ -112,15 +112,17 @@ else {
 	//Registrerer hvis ingen feilmeldinger. Hvis feil blir feilene vist til brujkeren
 	if (empty($_POST) === false && empty($errors) === true) {
 		$register_data = array(
-		'fornavn' => $_POST['fornavn'],
-		'etternavn' => $_POST['etternavn'],
-		'mobilnummer' => $_POST['mobilnummer'],
-		'epost' => $_POST['epost'],
-		'adresse' => $_POST['adresse'],
-		'postnummer' => $_POST['postnummer'],
-		'sted' => $_POST['sted'],
-		'passord' => $_POST['passord'],
-		);
+		'fornavn' 		=> $_POST['fornavn'],
+		'etternavn' 	=> $_POST['etternavn'],
+		'mobilnummer' 	=> $_POST['mobilnummer'],
+		'epost' 		=> $_POST['epost'],
+		'adresse' 		=> $_POST['adresse'],
+		'postnummer' 	=> $_POST['postnummer'],
+		'sted' 			=> $_POST['sted'],
+		'passord' 		=> $_POST['passord'],
+		'epost_kode' 	=> md5($_POST['epost'] + microtime())
+		
+	);
 		
 		register_user($register_data);
 		//ved å gå til register.php?suksess kan ikke brukeren trykke f5 for å registrere seg mange ganger. ville ikke fungert uansett pga form validringa

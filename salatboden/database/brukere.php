@@ -1,5 +1,20 @@
 <?php
 
+
+	//oppdaterer brukerstatus til aktiv
+function aktiver($epost, $epost_kode) {
+	$epost 		= mysql_real_escape_string($epost);
+	$epost_kode = mysql_real_escape_string($epost_kode);
+	
+	if (mysql_result(mysql_query("SELECT COUNT(`user_id`) FROM `brukere` WHERE `epost` = '$epost' AND `epost_kode` = '$Epost_kode' AND `aktiv` = 0"), 0) == 1) {
+		mysql_query("UPDATE `brukere` SET `aktiv` = 1 WHERE `epost` = '$epost'");
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
 //registrerer bruker, sikrer informasjonen og krypterer passordet med md5
 function register_user($register_data) {
 	array_walk($register_data, 'array_sanitize');
@@ -12,8 +27,10 @@ function register_user($register_data) {
 	
 	//samler data for å sende til registrering i db
 	mysql_query("INSERT INTO `brukere`($fields) VALUES ($data)");
-	}
-
+	epost($register_data['epost'], 'Aktiver kontoen din hos salatboden', "Hei " . $register_data['fornavn'] . "! \n\n Trykk på linken under for å aktivere din konto hos salatboden.\n\n Link \n http://prosjekt.uia.no/users/olabm10/salatboden/aktiver.php?epost= " . $register_data['epost'] . "&epost_kode=" . $register_data['epost_kode'] . " \n\n -Salatboden ");  
+	}	
+	
+	
 function user_data($user_id) {
 	$data = array();
 	$user_id = (int)$user_id;
@@ -74,9 +91,3 @@ function login ($epost, $passord) {
 
 	
 ?>
-
-
-
-
-
-
