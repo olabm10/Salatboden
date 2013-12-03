@@ -4,14 +4,12 @@
 require 'database/init.php';
 include 'header.php';
 
-//suksess eller ikke
 if (isset($_GET['suksess']) === true && empty($_GET['suksess']) === true) {
 ?>
 	<h2>WEE:D</h2>
 	<p>Vi har aktivert din konto!</p>
 	
 <?php
-//sjekker om epost og epost_kode er mottatt.
 } else if (isset($_GET['epost'], $_GET['epost_kode']) === true) {
 
 	$epost 		= ($_GET['epost']);

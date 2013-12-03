@@ -30,7 +30,7 @@ function register_user($register_data) {
 	epost($register_data['epost'], 'Aktiver kontoen din hos salatboden', "Hei " . $register_data['fornavn'] . "! \n\n Trykk på linken under for å aktivere din konto hos salatboden.\n\n Link \n http://prosjekt.uia.no/users/olabm10/salatboden/aktiver.php?epost=".$register_data['epost']."&epost_kode=".$register_data['epost_kode']." \n\n -Salatboden ");  
 	}	
 	
-	//holder brukerdata for aktiv bruker 
+	
 function user_data($user_id) {
 	$data = array();
 	$user_id = (int)$user_id;
@@ -49,32 +49,31 @@ function user_data($user_id) {
 }
 
 
-//sjekker om bruker er logget inn eller ikke
 function logget_inn() {
 	return (isset($_SESSION['user_id'])) ? true : false;
 }
 
 
-//sjekk om bruker eksisterer med epost
+//sjekk om bruker eksisterer
 function ekte_bruker($epost){
 	//sanitering er et verktøy for å forhindre korrupt data. Endrer ulovlige tegn. etter validering av data.
 	$epost = sanitize($epost);
 		return (mysql_result(mysql_query("SELECT COUNT(`user_id`) FROM `brukere` WHERE `epost`= '$epost'"), 0) == 1) ? true : false;
 }
 
-//sjekk om bruker eksisterer med epost.(oops, denne funksjonen eksisterer vist fra før av)
+//sjekk om bruker eksisterer
 function email_eksisterer($epost){
 	$epost = sanitize($epost);
 		return (mysql_result(mysql_query("SELECT COUNT(`user_id`) FROM `brukere` WHERE `epost`= '$epost'"), 0) == 1) ? true : false;
 }
 
-//Sjekker om bruker profil er aktivert
+//Sjekker om bruker er aktiv
 function aktiv_bruker($epost){
 	$epost = sanitize($epost);
 		return (mysql_result(mysql_query("SELECT COUNT(`user_id`) FROM `brukere` WHERE `epost` = '$epost' AND `aktiv` = 1"), 0) == 1)? true : false;
 }
 
-//returnerer ID fra brukers epost som logger inn
+//returnerer ID fra bruker som logger inn
 function id_fra_bruker($epost) {
 	$epost = sanitize($epost);
 	return mysql_result(mysql_query("SELECT `user_id` FROM `brukere` WHERE `epost` = '$epost'"), 0, 'user_id');

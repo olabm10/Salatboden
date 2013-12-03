@@ -2,7 +2,7 @@
 
 include 'init.php';
 
-//errorsjekk ved innlogging. feilmeldinger sendt til errors array.
+
 
 
 
@@ -44,12 +44,9 @@ if(empty($_POST) === false) {
 <h2> Kunne ikke logge inn...</h2>
 
 <?php
-
 //printer feilmeldinger
 echo output_errors($errors);
 }
 ?>
-
-
 <!--hjem link ved feil innlogging-->
 <span>trykk <a href="../hjem.php">her</a> for å prøve igjen. </span>
